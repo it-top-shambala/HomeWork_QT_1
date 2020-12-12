@@ -20,6 +20,14 @@ private slots:
 
     void on_clear_clicked();
 
+    void on_add_clicked();
+
+    void on_load_clicked();
+
+    void on_deleteFile_clicked();
+
+    void on_deletePosition_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
